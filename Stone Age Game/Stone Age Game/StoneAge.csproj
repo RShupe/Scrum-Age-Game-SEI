@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD0E0AD8-CA85-4E0C-9528-82AA748F1A0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Stone_Age_Game</RootNamespace>
+    <AssemblyName>Scrum Age</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\dot-net-transitions.1.2.1.0\lib\net40-full\Transitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameForms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForms\EndGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\EndGame.Designer.cs">
+      <DependentUpon>EndGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForms\HowToPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\HowToPlay.Designer.cs">
+      <DependentUpon>HowToPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForms\NextPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\NextPlayer.Designer.cs">
+      <DependentUpon>NextPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\DiceRoller.cs" />
+    <Compile Include="GameForms\ExchangeResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\ExchangeResource.Designer.cs">
+      <DependentUpon>ExchangeResource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForms\GameStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\GameStart.Designer.cs">
+      <DependentUpon>GameStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForms\MessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForms\MessageForm.Designer.cs">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameResources\Money.cs" />
+    <Compile Include="Game\Player.cs" />
+    <Compile Include="Game\ProgramCard.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GameResources\Prototypes.cs" />
+    <Compile Include="GameResources\Resource.cs" />
+    <Compile Include="GameResources\UseCases.cs" />
+    <Compile Include="GameResources\UserStories.cs" />
+    <EmbeddedResource Include="GameForms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\EndGame.resx">
+      <DependentUpon>EndGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\ExchangeResource.resx">
+      <DependentUpon>ExchangeResource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\HowToPlay.resx">
+      <DependentUpon>HowToPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\GameStart.resx">
+      <DependentUpon>GameStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\MessageForm.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForms\NextPlayer.resx">
+      <DependentUpon>NextPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full Board.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Position.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Human Resources.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game Board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user stories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user stories1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user stories2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScrumMasterSpot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bank1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programs1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programs2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark.png" />
+    <None Include="Resources\16.png" />
+    <None Include="bin\Debug\Images\Program Cards\12.png" />
+    <None Include="bin\Debug\Images\Program Cards\13.png" />
+    <None Include="bin\Debug\Images\Program Cards\14.png" />
+    <None Include="bin\Debug\Images\Program Cards\15.png" />
+    <None Include="bin\Debug\Images\Program Cards\16.png" />
+    <Content Include="icon.ico" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\13.png" />
+    <None Include="Resources\14.png" />
+    <None Include="Resources\15.png" />
+    <None Include="Resources\Bank2.png" />
+    <None Include="Resources\transparent dev1.png" />
+    <None Include="Resources\transparent dev.png" />
+    <None Include="Resources\user stories3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

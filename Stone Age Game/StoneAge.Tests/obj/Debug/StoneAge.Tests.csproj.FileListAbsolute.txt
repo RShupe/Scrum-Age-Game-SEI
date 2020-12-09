@@ -1,0 +1,20 @@
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.abstractions.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\StoneAge.Tests.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\StoneAge.Tests.pdb
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\Stone Age Game.exe
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.assert.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.core.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\Stone Age Game.pdb
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\Stone Age Game.exe.config
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.assert.xml
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.core.xml
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\obj\Debug\StoneAge.Tests.csprojAssemblyReference.cache
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\obj\Debug\StoneAge.Tests.csproj.CoreCompileInputs.cache
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\obj\Debug\StoneAge.Tests.csproj.CopyComplete
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\obj\Debug\StoneAge.Tests.dll
+C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\StoneAge.Tests\obj\Debug\StoneAge.Tests.pdb
