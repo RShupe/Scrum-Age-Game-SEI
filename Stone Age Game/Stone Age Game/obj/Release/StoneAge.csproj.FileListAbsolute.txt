@@ -18,3 +18,23 @@ C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\Stone Age Game\o
 C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\Stone Age Game\obj\Release\StoneAge.csproj.CopyComplete
 C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\Stone Age Game\obj\Release\Scrum Age.exe
 C:\Users\ryant\Documents\se1-semester-repository\Stone Age Game\Stone Age Game\obj\Release\Scrum Age.pdb
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\StoneAge.csprojAssemblyReference.cache
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.GameForms.AboutForm.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.GameForms.EndGame.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.ExchangeResource.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.GameForms.HowToPlay.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.MainForm.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.GameStart.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.MessageForm.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.GameForms.NextPlayer.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Stone_Age_Game.Properties.Resources.resources
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\StoneAge.csproj.GenerateResource.cache
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\StoneAge.csproj.CoreCompileInputs.cache
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Scrum Age.exe
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\Scrum Age.pdb
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\bin\Release\Scrum Age.exe.config
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\bin\Release\Scrum Age.exe
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\bin\Release\Scrum Age.pdb
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\bin\Release\Transitions.dll
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\bin\Release\Transitions.pdb
+C:\Users\ryant\Documents\GitHub\Software-Engineering-I-backup-repo\Stone Age Game\Stone Age Game\obj\Release\StoneAge.csproj.CopyComplete

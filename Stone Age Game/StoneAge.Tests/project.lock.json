@@ -7863,12 +7863,12 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\StoneAge.Tests\\StoneAge.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\StoneAge.Tests\\StoneAge.Tests.csproj",
       "projectName": "StoneAge.Tests",
-      "projectPath": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\StoneAge.Tests\\StoneAge.Tests.csproj",
-      "projectJsonPath": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\StoneAge.Tests\\project.json",
+      "projectPath": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\StoneAge.Tests\\StoneAge.Tests.csproj",
+      "projectJsonPath": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\StoneAge.Tests\\project.json",
       "packagesPath": "C:\\Users\\ryant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\StoneAge.Tests\\obj\\",
+      "outputPath": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\StoneAge.Tests\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\ryant\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7881,8 +7881,8 @@
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\Stone Age Game\\StoneAge.csproj": {
-              "projectPath": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\Stone Age Game\\StoneAge.csproj"
+            "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\Stone Age Game\\StoneAge.csproj": {
+              "projectPath": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\Stone Age Game\\StoneAge.csproj"
             }
           }
         }

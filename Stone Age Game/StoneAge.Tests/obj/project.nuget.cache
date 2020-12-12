@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "10aRyYSkyu2WUzAXUKeccyV61ZuHbjvjtT3hNTvVJoGVMwPm3l2mqtOyQCnWGsL4t7FuNYpYAaPBHEdNk1g8vQ==",
+  "dgSpecHash": "0vyWlFANHYncGswMVtDNgcEVPBbTWRRQxY/OmYiupWZyiYBelKb8U8U5X40ly+/Kd69oJpRPW8pywejuFHr8eQ==",
   "success": false,
-  "projectFilePath": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\StoneAge.Tests\\project.json",
+  "projectFilePath": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\StoneAge.Tests\\project.json",
   "expectedPackageFiles": [
     "C:\\Users\\ryant\\.nuget\\packages\\dotnet-test-xunit\\1.0.0-rc2-build10025\\dotnet-test-xunit.1.0.0-rc2-build10025.nupkg.sha512",
     "C:\\Users\\ryant\\.nuget\\packages\\libuv\\1.9.0\\libuv.1.9.0.nupkg.sha512",
@@ -143,7 +143,7 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "filePath": "C:\\Users\\ryant\\Documents\\se1-semester-repository\\Stone Age Game\\StoneAge.Tests\\StoneAge.Tests.csproj",
+      "filePath": "C:\\Users\\ryant\\Documents\\GitHub\\Software-Engineering-I-backup-repo\\Stone Age Game\\StoneAge.Tests\\StoneAge.Tests.csproj",
       "message": "Unable to find package MathDemo. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
       "libraryId": "MathDemo",
       "targetGraphs": [
